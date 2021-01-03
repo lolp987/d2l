@@ -6,7 +6,6 @@ from os.path import dirname
 
 
 def main():
-    import os
     os.makedirs(dirname(__file__) + '/d2l_ch2_ppe', exist_ok=True)
     data_file = os.path.join(dirname(__file__) + '/d2l_ch2_ppe', 'preprocessing_exercises.csv')
 
